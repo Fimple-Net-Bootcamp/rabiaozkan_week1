@@ -11,7 +11,7 @@ namespace library_management_system
             // Kitaplar oluşturuluyor
             Book book1 = new Book { Title = "1984", Author = "George Orwell", PublicationYear = 1949 };
             Book book2 = new Book { Title = "Bülbülü Öldürmek", Author = "Harper Lee", PublicationYear = 1960 };
-            Book book3 = new Book { Title = "Yabacı", Author = "Albert Camus", PublicationYear = 1942 };
+            Book book3 = new Book { Title = "Yabancı", Author = "Albert Camus", PublicationYear = 1942 };
 
             // Kitaplar kütüphaneye ekleniyor
             library.AddBook(book1);
